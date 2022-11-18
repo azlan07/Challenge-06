@@ -3,6 +3,8 @@
  * @author kelompok5
  */
 
+ const { Sequelize } = require("sequelize");
+
 /** Destruct environment variable to get database configuration */
 const { DB_USERNAME = "postgres",
   DB_PASSWORD = "rAi8nENAf0do3cwOZVy6",
