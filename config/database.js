@@ -38,11 +38,11 @@ const { Sequelize } = require("sequelize");
 /** Destruct environment variable to get database configuration */
 const {
   DB_USERNAME = "postgres",
-  DB_PASSWORD = "yOwEBYhHlz6a5pEuilYw",
-  DB_HOST = "containers-us-west-117.railway.app",
+  DB_PASSWORD = "zMYiZo2562bev7TPFSUy",
+  DB_HOST = "containers-us-west-32.railway.app",
   DB_NAME = "railway",
-  DB_PORT = "5804",
-  DB_URI = "postgresql://postgres:yOwEBYhHlz6a5pEuilYw@containers-us-west-117.railway.app:5804/railway"
+  DB_PORT = "5856",
+  DB_URI = "postgresql://postgres:zMYiZo2562bev7TPFSUy@containers-us-west-32.railway.app:5856/railway"
 } = process.env;
 
 const db = new Sequelize(DB_URI,{
